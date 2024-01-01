@@ -4,5 +4,5 @@ WORKDIR /app
 
 COPY requirements.txt ./requirements.txt
 RUN pip install -r requirements.txt
-CMD streamlit run src/app.py
+CMD ["streamlit", "run", "app.py"]
 EXPOSE 8080
