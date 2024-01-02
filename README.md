@@ -1,5 +1,7 @@
 # streamlit-analytics ;👀
-IIRフィルタのフィルタ係数出力のアプリ
+output coefficient of IIR filter
 
-オフライン実行時
-$streamlit run application.py
+this code is a configuration for app runner
+
+$pip install -r requirements.txt
+$streamlit run app.py --server.port 8080
